@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arkanoid</title>
+</head>
+<style>
+    h1,p {
+        font-family: 'Droid Sans', sans-serif;
+        letter-spacing: 4px;
+        color: turquoise;
+        text-align: center;
+        text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+        text-transform: uppercase;
+    }
+
+
+    canvas {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid rgba(0, 50, 100, 0.4);
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+    }
+
+    ::selection {
+        background: transparent;
+    }
+</style>
+<body>
+<h1>Arkanoid game</h1>
+<p>
+    PRESS SPACE TO START
+</p>
+<canvas width="224" height="238" id="game">
+
+</canvas>
+<p>
+    Dont'fall the ball into the void
+</p>
+<script src="dist/app.js"></script>
+</body>
+</html>
